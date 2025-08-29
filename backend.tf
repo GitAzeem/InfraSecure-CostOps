@@ -1,9 +1,9 @@
 terraform {
   backend "azurerm" {
-    resource_group_name   = "Backend-static-hosting"
-    storage_account_name  = "tfstate7800"
-    container_name        = "tfstate"
-    key                   = "terraform.tfstate"
+    resource_group_name   = "your rg name"
+    storage_account_name  = "your storage accoutn name"
+    container_name        = "your container name"
+    key                   = "terraform.tfstate(default name)"
   }
 }
 
